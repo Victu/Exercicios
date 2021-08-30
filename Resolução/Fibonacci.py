@@ -18,7 +18,7 @@ while x <= Tt and not sair:
 
     if x == Tt:
         print('-----' * Tt)
-        repetir = input('\nDeseja repetir[sim/não]? ').strip()[0]
+        repetir = input('Deseja repetir[sim/não]? ').strip()[0]
         if repetir in 'Nn':
             sair = True
         elif repetir in 'Ss':
@@ -26,5 +26,5 @@ while x <= Tt and not sair:
             print('-----' * Tt)
             pt = pt_st = x = 0
             st = 1
-print('-' * 66)
+print('=' * 66)
 print('{:^60}'.format(' SEQUÊNCIA FINALIZADA.'))
